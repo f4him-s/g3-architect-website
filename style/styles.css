@@ -12,6 +12,8 @@
     background-color: #FF900E ;
     color: #fff;
     border: none;
+    font-size: 1.25rem;
+    cursor: pointer;
 }
 
 /* Header style */
@@ -60,3 +62,31 @@ nav li a {
     margin-bottom: 50px;
 }
 
+.banner-container img{
+    width: 100%
+}
+
+
+/* Mobile or small device */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px ;
+
+    }
+   nav{
+    flex-direction: column;
+    text-align: center;
+   } 
+}
+
+/* Tablet/medium device */
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    header{
+        padding: 50px;
+        
+    }
+    nav{
+        flex-direction: column;
+    }
+}
