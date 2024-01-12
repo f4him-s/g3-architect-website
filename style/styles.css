@@ -66,6 +66,51 @@ nav li a {
     width: 100%
 }
 
+/* Features section styles */
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.features-container{
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    gap: 60px;
+}
+.features-image-cntainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.features-content-title{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+
+}
+.features-content-title .quick-list{
+    color: #727272;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.features-content-title .features{
+    color: #FF900E;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.features-content-description{
+    color: #727272;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
 
 /* Mobile or small device */
 @media screen and (max-width: 576px) {
