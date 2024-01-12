@@ -116,12 +116,17 @@ main{
 @media screen and (max-width: 576px) {
     header{
         padding: 20px ;
-
     }
-   nav{
+    .features-container{
+        padding: 20px;
+    }
+   nav, .features-container {
     flex-direction: column;
     text-align: center;
    } 
+   .features-image-cntainer{
+    grid-template-columns: 1fr;
+   }
 }
 
 /* Tablet/medium device */
@@ -131,7 +136,7 @@ main{
         padding: 50px;
         
     }
-    nav{
+    nav , .features-container{
         flex-direction: column;
     }
 }
